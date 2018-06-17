@@ -1,6 +1,3 @@
-
-
-
 from io import open
 import unicodedata
 import string
@@ -8,9 +5,6 @@ import re
 import random
 import time
 import math
-
-
-
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
@@ -21,8 +15,6 @@ from helper_functions import prepareData,readLangs,filterPairs,trainIters
 use_cuda = torch.cuda.is_available()
 
 MAX_LENGTH = 10
-
-
 
 class AttnDecoderRNN(nn.Module):
     def __init__(self, hidden_size, output_size, n_layers=1, dropout_p=0.1, max_length=MAX_LENGTH):

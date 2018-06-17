@@ -1,5 +1,3 @@
-import math
-import time
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
@@ -11,8 +9,6 @@ import re
 import random
 import time
 import math
-
-
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
@@ -33,7 +29,6 @@ eng_prefixes = (
     "we are", "we re ",
     "they are", "they re "
 )
-
 
 class Lang:
     def __init__(self, name):

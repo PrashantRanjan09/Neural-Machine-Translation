@@ -9,8 +9,6 @@ import math
 from Encoder import EncoderRNN
 from Decoder import DecoderRNN
 from AttnDecoder import AttnDecoderRNN
-
-
 import torch
 import torch.nn as nn
 from torch.autograd import Variable

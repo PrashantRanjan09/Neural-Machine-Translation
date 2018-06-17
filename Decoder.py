@@ -1,7 +1,3 @@
-
-
-
-
 from io import open
 import unicodedata
 import string
@@ -9,9 +5,6 @@ import re
 import random
 import time
 import math
-
-
-
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
@@ -20,9 +13,6 @@ import torch.nn.functional as F
 from helper_functions import prepareData,readLangs,filterPairs,trainIters
 
 use_cuda = torch.cuda.is_available()
-
-
-
 
 class DecoderRNN(nn.Module):
     def __init__(self, hidden_size, output_size, n_layers=1):

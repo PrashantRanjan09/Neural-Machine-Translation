@@ -19,3 +19,5 @@ Calculating the attention weights is done with another feed-forward layer, using
 This will take the file kept in **data** folder. Default eng-fra.txt. 
 
     run : python main.py
+
+In **main.py** enter your input sentence in source language(lang1) - line 55 to see the translation.
